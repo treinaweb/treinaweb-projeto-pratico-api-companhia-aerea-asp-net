@@ -8,11 +8,16 @@ git clone https://github.com/treinaweb/treinaweb-projeto-pratico-api-companhia-a
 ```
 
 **Restaurar os pacotes**
+
+Navegar para a pasta do projeto clonado e executar o seguinte comando:
+
 ```
 dotnet restore
 ```
 
 **Executar a aplicação**
+
+Executar o seguinte comando ou utilizar a ferramenta de Debug do Visual Studio u Visual Studio Code (normalmente pressionando F5):
 ```
 dotnet run
 ```
