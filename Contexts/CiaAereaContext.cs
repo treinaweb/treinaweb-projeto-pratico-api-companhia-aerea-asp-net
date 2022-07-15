@@ -22,4 +22,13 @@ public class CiaAereaContext: DbContext
     {
         optionsBuilder.UseSqlServer(_configuration.GetConnectionString("CiaAerea"));
     }
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfiguration(new AeronaveConfiguration());
+        modelBuilder.ApplyConfiguration(new PilotoConfiguration());
+        modelBuilder.ApplyConfiguration(new VooConfiguration());
+        modelBuilder.ApplyConfiguration(new CancelamentoConfiguration());
+        modelBuilder.ApplyConfiguration(new ManutencaoConfiguration());
+    }
 }
