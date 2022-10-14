@@ -30,7 +30,7 @@ A UI do Swagger estará disponível na URL https://localhost:[porta]/swagger (a 
 **Consumir os endpoints**
 Sugestão de ordem para testar a aplicação:
 
-1) Criar, editar e excluir pacientes
-2) Criar, editar e excluir médicos
-3) Criar, editar e excluir monitoramentos do paciente
-4) Criar, editar e excluir consultas
+1) Criar, editar e excluir pilotos
+2) Criar, editar e excluir aeronaves
+3) Registrar manutenções das aeronaves
+4) Registrar voos
